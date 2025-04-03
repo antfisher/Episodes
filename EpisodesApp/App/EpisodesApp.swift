@@ -1,5 +1,5 @@
 //
-//  EpisodesAppApp.swift
+//  EpisodesApp.swift
 //  EpisodesApp
 //
 //  Created by Anton Rybaiev on 2025-04-01.
@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct EpisodesAppApp: App {
+struct EpisodesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CoordinatorView()
         }
     }
 }
